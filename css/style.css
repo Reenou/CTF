@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/MIT-Earth-Dish_0.jpg);
+  height: 98vh;
+  background-size: cover;
+  background-position: center;
+}
+header h1{
+  color: red;
+  }
+  header #branding h1{
+    padding-top: 30px;
+  }
+ul{
+  float: right;
+  list-style-type: none;
+  /*margin-top: 2px;*/
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition:0.6s ease;
+}
+ul li a:hover{
+  background-color: #fff;
+  color:#000;
+}
+ul li.active
+ a{
+  background-color: #fff;
+  color:#000;
+}
+.title{
+  position: absolute;
+  top: 40%;
+  left: 15%;
+/* transform:translate(-40%,-10%); */
+}
+.title h1{
+  color: #fff;
+  font-size: 45px;
+}
+.button{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  }
+.butn{
+  border: 1px solid #fff ;
+  background-color: red;
+  padding: 10px 30px;
+  color: #000 ;
+  text-decoration: none;
+  transition: 0.6s ease;
+  }
+  .butn:hover{
+    background-color: #fff;
+  }
+  .contain{
+    position: absolute;
+    top: 80%;
+    left: 1%;
+  }
+#choices{
+  /*margin-top: 20px;*/
+  background-color: #000;
+}
+/*#choices.choice{
+  float: left;
+  display: inline-block
+  width: 30%;
+}*/
+footer{
+  padding: 0px;
+  /* margin-top: 20px; */
+  color: #fff;
+  background-color: #35424a;
+  text-align: center;
+}
